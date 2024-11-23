@@ -1,0 +1,133 @@
+\\  input the color of the trffic light ( r for red g for green y for yellow)
+
+
+#include<stdio.h>
+void main()
+
+{
+    char ch;
+    printf("select a character ");
+    scanf ("%c",&ch);
+    switch(ch)
+    {
+         case 'r':
+             printf(" Stop ");
+         break;
+         case 'y':
+             printf(" Get ready ");
+         break;
+         case 'g':
+             printf(" GO ");
+    default:
+            printf("no response");
+        break;
+    }
+}
+________________________________________________________
+
+OUTPUT
+        select a character y
+       Get ready 
+
+__________________________________________________________
+
+// how to print the four arithmetic operator using switch case
+
+
+#include<stdio.h>
+void main()
+
+{
+    int p,q;
+    char o;
+    printf("Enter the value of p: ");
+          scanf ("%d",&p);
+    printf ("Enter the value of q: ");
+           scanf ("%d",&q);
+    printf("select a character ");
+           scanf (" %c",&o);
+    switch(o)
+    {
+         case '+':
+             printf(" addition of two number: %d ",p+q);
+         break;
+         case '-':
+             printf(" subraction of two number: %d ",p-q);
+         break;
+         case '*':
+             printf("multiplication of two number: %d ",p*q);
+         break;    
+         case '/':
+            printf ("dividsion of two numbers:%d",p/q);
+        break;
+        default:
+            printf ("modulus of two number: %d ",p%q);
+        break;
+    }
+}
+
+_______________________________________________________________________
+
+OUTPUT
+       Enter the value of p: 89
+       Enter the value of q: 10
+          select a character *
+multiplication of two number: 890 
+      
+______________________________________________________________________________
+
+// TO find the days in a week  
+
+#include<stdio.h>
+void main()
+
+{
+    int p;
+    
+    printf("Enter the value of p: ");
+          scanf ("%d",&p);
+    
+         
+    switch(p)
+    {
+         case '1':
+             printf(" It is the first day SUNDAY ");
+         break;
+         case '2':
+             printf(" It is the second day MONDAY ");
+         break;
+         case '3':
+             printf(" It is the third day  TUESDAY ");
+         break;    
+         case '4':
+            printf (" It is the fourth day  WEDNESDAY ");
+        break;
+           case '5':
+            printf (" It is the fifth day THURSDAY ");
+        break;
+           case '6':
+            printf (" It is the sixth day FRIDAY ");
+        break;
+          case '7':
+            printf (" It is the seventh day SATURDAY ");
+        break;
+        
+        default:
+            printf ("there is only seven days in a week");
+        break;
+    }
+}
+
+__________________________________________________________________________
+
+OUTPUT
+Enter the value of p: 9
+there is only seven days in a week
+_____________________________________________________________________________
+
+
+
+
+
+
+
