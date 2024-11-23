@@ -1,0 +1,55 @@
+// to find the temprature condition using if eleif else
+
+#include <stdio.h>
+void main()
+{
+    float temp;
+    printf("enter the value of temprature");
+    scanf("%f",&temp);
+    
+    if(temp>30)
+    {
+    printf("\nHot Weather");
+    }
+    else if(temp >=20 && temp <=30)
+{   
+    printf("\nModerate Weather");
+}  
+ else
+{   
+    printf("\nCold Weather");
+}
+
+}
+_____________________________________________________________
+OUTPUT
+      enter the value of temprature: 29
+      Moderate Weather
+_____________________________________________________________
+// to find the leap year using if else method
+# include <stdio.h>
+void main()
+{
+    int leap;
+    printf ("enter the year : ");
+    scanf ("%d",&leap);
+   
+  {
+      if (leap%4==0||leap%400==0&&leap%100==0)
+    printf ("given year %d is a leap year",leap);
+    
+  
+  else
+  printf (" given year %d is not a leap year",leap);
+    
+    }
+
+}
+__________________________________________________________________
+OUTPUT
+          enter the year : 2008
+          given year 2008 is a leap year
+___________________________________________________________________
+
+
+
