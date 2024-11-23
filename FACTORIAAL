@@ -1,0 +1,23 @@
+// TO FIND THE FACTORIAL OFF THE NUMBER
+
+#include <stdio.h>
+int main() {
+    int n, i;
+    int mult = 1;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    
+ {
+        for (i = 1; i <= n; ++i) {
+            mult *= i;
+        }
+        printf("Factorial of %d is %d ",n, mult);
+    }
+
+    return 0;
+}  
+_______________________________________________________________
+OUTPUT
+   Enter a number: 5
+Factorial of 5 is 120 
+________________________________________________________________
