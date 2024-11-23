@@ -51,5 +51,53 @@ OUTPUT
           given year 2008 is a leap year
 ___________________________________________________________________
 
+// to find the of the student mark
+#include <stdio.h>
+void main()
+{
+ int mark ;
+    printf("Enter the mark");
+    scanf("%d",&mark);
+    
+    if(mark>=90)
+    {
+    printf("\n The mark: %d \nThe grade is 'A+'",mark);
+    }
+    else if(mark>=80&&mark<=89)
+   {
+    printf("\n The mark: %d \nThe grade is 'A'",mark);
+   }
+  
+    else if(mark>45&&mark<=70)
+ {   
+    printf("\n The mark: %d \n The grade is 'B'",mark);
+}
+    else
+  {
+      printf("\n the mark: %d \n No grade 'FAIL'",mark);
+  }
+}
+_____________________________________________________________________________
+OUTPUT
+      Enter the mark : 84
+      The mark: 84 
+      The grade is 'A'
+______________________________________________________________________________
+// to find the given character is vowel or constants 
 
-
+# include <stdio.h>
+void main()
+{
+char x,a,e,i,o,u;
+   printf("Enter the character: ");
+      scanf("%c",&x);
+ if(x=='a'||x=='e'||x=='i'||x=='o'||x=='u')
+   printf("The given character %c is vowel",x);
+ else
+    printf("The given character %c is Consonants",x);
+}
+_______________________________________________________________________________
+OUTPUT
+      Enter the character: o
+      The given character o is vowel
+________________________________________________________________________________
